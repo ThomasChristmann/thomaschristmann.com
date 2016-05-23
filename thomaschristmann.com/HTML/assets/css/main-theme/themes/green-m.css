@@ -800,19 +800,20 @@ h1 > .label {
 }
 /* Small Circle Icons - social, share */
 .circle-icons i {
-  width: 35px;
-  height: 35px;
+  width: 70px;
+  height: 70px;
   line-height: 35px;
   text-align: center;
   border-radius: 50%;
   color: #4caf50;
-  font-size: 13px !important;
+  font-size: 40px !important;
   background: #fff;
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.15);
   -webkit-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
+  padding-top: 17px;
 }
 .circle-icons li:hover i {
   background: #4caf50;
@@ -1689,6 +1690,7 @@ button .fa-angle-double-right:before {
   -moz-backface-visibility: hidden;
   backface-visibility: hidden;
   background: #fff;
+  text-align: center;
 }
 .visible-part {
   cursor: pointer;
